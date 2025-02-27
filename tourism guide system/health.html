@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stay updated with travel restrictions, healthcare tips, and travel insurance recommendations on TravelGuide.">
+    <title>Healthcare & Travel Assistance</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="health.css">
+    <script src="health.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Trip Guide Logo" style="height: 40px; vertical-align: middle;"/></a>
+                TravelGuide
+            </div>
+            <div class="nav-links">
+                <a href="index.html"><strong>Home</strong></a>
+                <button class="language-switcher">
+                    <i class="fas fa-globe"></i>
+                    EN
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- general -->
+    <div class="healthcare-container">
+        <h1>Healthcare & Travel Assistance</h1>
+        <p>Stay updated with the latest travel restrictions, vaccination requirements, and health tips. Inform us about any pre-existing conditions for personalized care.</p>
+
+        <!-- Travel Restrictions Section -->
+        <div class="section">
+            <h2>Latest Travel Restrictions</h2>
+            <div class="input-group">
+                <label for="destination">Enter Destination:</label>
+                <input type="text" id="destination" placeholder="e.g., USA, France, Japan">
+                <button id="check-restrictions">Check Restrictions</button>
+            </div>
+            <div id="restrictions-output" class="result"></div>
+        </div>
+
+        <!-- Vaccination Requirements Section -->
+        <div class="section">
+            <h2>Vaccination Requirements</h2>
+            <div class="input-group">
+                <label for="vaccination-destination">Enter Destination:</label>
+                <input type="text" id="vaccination-destination" placeholder="e.g., USA, France, Japan">
+                <button id="check-vaccination">Check Requirements</button>
+            </div>
+            <div id="vaccination-output" class="result"></div>
+        </div>
+
+        <!-- Pre-existing Conditions Form -->
+        <div class="section">
+            <h2>Pre-existing Conditions</h2>
+            <form id="health-form">
+                <div class="input-group">
+                    <label for="condition">Medical Condition:</label>
+                    <input type="text" id="condition" placeholder="e.g., Diabetes, Asthma" required>
+                </div>
+                <div class="input-group">
+                    <label for="medications">Medications:</label>
+                    <input type="text" id="medications" placeholder="e.g., Insulin, Inhaler" required>
+                </div>
+                <div class="input-group">
+                    <label for="allergies">Allergies:</label>
+                    <input type="text" id="allergies" placeholder="e.g., Peanuts, Pollen">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="health-output" class="result"></div>
+        </div>
+
+        <!-- Emergency Contacts Section -->
+        <div class="section">
+            <h2>Emergency Contacts</h2>
+            <div class="input-group">
+                <label for="emergency-destination">Enter Destination:</label>
+                <input type="text" id="emergency-destination" placeholder="e.g., USA, France, Japan">
+                <button id="check-emergency">Get Contacts</button>
+            </div>
+            <div id="emergency-output" class="result"></div>
+        </div>
+
+        <!-- Travel Insurance Recommendations -->
+        <div class="section">
+            <h2>Travel Insurance Recommendations</h2>
+            <div class="input-group">
+                <label for="insurance-destination">Enter Destination:</label>
+                <input type="text" id="insurance-destination" placeholder="e.g., USA, France, Japan">
+                <button id="check-insurance">Get Recommendations</button>
+            </div>
+            <div id="insurance-output" class="result"></div>
+        </div>
+    </div>
+
+    <!-- footer -->
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Logo and About Section -->
+      <div class="footer-section">
+        <div class="footer-logo">
+            <a href="index.html"><img src="img/logo.png" alt="Trip Guide Logo" /></a>
+
+    
+          <h1>TravelGuide</h1>
+        </div>
+        <p>Your ultimate companion for discovering amazing destinations and creating unforgettable travel experiences.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Top Destinations Section -->
+      <div class="footer-section">
+        <h3>Top Destinations</h3>
+        <ul class="footer-links" id="destinations-list">
+          <li><a href="#">Japan</a></li>
+          <li><a href="#">Thailand</a></li>
+          <li><a href="#">Italy</a></li>
+          <li><a href="#">France</a></li>
+          <li><a href="#">India</a></li>
+          <li><a href="#">USA</a></li>
+          <li><a href="#">Mexico</a></li>
+          <li><a href="#">Rome</a></li>
+          <li><a href="#">China</a></li>
+          <li><a href="#">Thailand</a></li>
+        </ul>
+      </div>
+
+      <!-- Travel Interests Section -->
+      <div class="footer-section">
+        <h3>Travel Interests</h3>
+        <ul class="footer-links">
+          <li><a href="#">Adventure</a></li>
+          <li><a href="#">Cultural</a></li>
+          <li><a href="#">Skiing</a></li>
+          <li><a href="#">Beach</a></li>
+          <li><a href="#">Mountain</a></li>
+          <li><a href="#">City</a></li>
+          <li><a href="#">Romance</a></li>
+          <li><a href="#">Luxury</a></li>
+          <li><a href="#">Nightlife</a></li>
+          <li><a href="#">Wildlife</a></li>
+        </ul>
+      </div>
+
+      <!-- About Us Section -->
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <ul class="footer-links">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Trip Guide. All rights reserved.</p>
+    </div>
+  </footer>
+    
+</body>
+</html>
