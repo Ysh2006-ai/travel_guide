@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trip Planner</title>
+    <link rel="stylesheet" href="trip_planer.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="trip_planer.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Trip Guide Logo" style="height: 40px; vertical-align: middle;"/></a>
+            TravelGuide
+        </div>
+        <div class="nav-links">
+            <a href="index.html"><strong>Home</strong></a>
+            <a href="#planning"><strong>Trip Planning</strong></a>
+            <a href="#community"><strong>Community</strong></a>
+            <button class="language-switcher">
+                <i class="fas fa-globe"></i>
+                EN
+            </button>
+        </div>
+    </div>
+</nav>
+    <!-- planner container -->
+    <div class="planner-container">
+        <h1>AI Trip Planner</h1>
+        <p>Get personalized itineraries based on your interests, budget, and time.</p>
+
+        <div class="input-group">
+            <label for="interests">Your Interests:</label>
+            <input type="text" id="interests" placeholder="e.g., hiking, museums, food">
+        </div>
+
+        <div class="input-group">
+            <label for="budget">Your Budget ($):</label>
+            <input type="number" id="budget" placeholder="Enter your budget">
+        </div>
+
+        <div class="input-group">
+            <label for="days">Number of Days:</label>
+            <input type="number" id="days" placeholder="Enter number of days">
+        </div>
+
+        <button id="generate-itinerary">Generate Itinerary</button>
+
+        <div class="result">
+            <h2>Your Personalized Itinerary:</h2>
+            <div id="itinerary-output"></div>
+        </div>
+    </div>
+
+    
+<!-- footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo and About Section -->
+    <div class="footer-section">
+      <div class="footer-logo">
+          <a href="index.html"><img src="img/logo.png" alt="Trip Guide Logo" /></a>
+
+  
+        <h1>TravelGuide</h1>
+      </div>
+      <p>Your ultimate companion for discovering amazing destinations and creating unforgettable travel experiences.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <!-- Top Destinations Section -->
+    <div class="footer-section">
+      <h3>Top Destinations</h3>
+      <ul class="footer-links" id="destinations-list">
+        <li><a href="#">Japan</a></li>
+        <li><a href="#">Thailand</a></li>
+        <li><a href="#">Italy</a></li>
+        <li><a href="#">France</a></li>
+        <li><a href="#">India</a></li>
+        <li><a href="#">Thailand</a></li>
+      </ul>
+    </div>
+
+    <!-- Travel Interests Section -->
+    <div class="footer-section">
+      <h3>Travel Interests</h3>
+      <ul class="footer-links">
+        <li><a href="#">Adventure</a></li>
+        <li><a href="#">Cultural</a></li>
+        <li><a href="#">Skiing</a></li>
+        <li><a href="#">Beach</a></li>
+        <li><a href="#">Mountain</a></li>
+        <li><a href="#">City</a></li>
+      </ul>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <ul class="footer-links">
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Trip Guide. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
