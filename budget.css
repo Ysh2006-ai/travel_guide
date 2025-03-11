@@ -72,7 +72,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
     text-align: center;
-    padding: 30px;
+   
     margin-top: 50px; /* Optional: Add margin to space it from the top */
     margin-bottom: 20px; /* Ensure space between calculator and footer */
 }
