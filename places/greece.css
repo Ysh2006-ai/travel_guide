@@ -294,12 +294,10 @@ nav.scrolled {
 }
 
 .about-image .image-placeholder {
-    background-image: url('https://img.freepik.com/premium-photo/oia-village-santorini-greece-view-traditional-houses-santorini-small-narrow-streets-rooftops-houses-churches-hotels-landscape-sunset-travel-vacation-photography_647656-2303.jpg');
-    width: 400px;
-    height: 400px;
+    background-image: url('https://th-thumbnailer.cdn-si-edu.com/EoKQKUUiaMt5IBo7On52rG0xuRA=/960x439/filters:focal(1060x707:1061x708)/https://tf-cmsv2-journeys-media.s3.amazonaws.com/filer_public/37/f1/37f19b22-5263-4789-99b8-b88222c708ca/grc_santorini_oia_ist_166699696.jpg');
     border-radius: 15px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    transform: rotate(4deg);
+    transform: rotate(2deg);
     height: 400px;
 }
 
