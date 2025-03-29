@@ -22,8 +22,8 @@
 ## 🚀 Getting Started
 ### 📥 Clone the Repository
 ```bash
-git clone https://github.com/your-username/travel-guide.git
-cd travel-guide
+git clone https://github.com/Ysh2006-ai/travel_guide.git
+cd travel_guide
 ```
 
 ---
