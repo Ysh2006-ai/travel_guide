@@ -27,6 +27,7 @@ Planning a trip often involves using multiple tools and websites - one for itine
 ✅ **Packing Checklist:** Create customized packing lists based on your destination and trip duration.  
 ✅ **Destination Explorer:** Discover and research dream destinations with detailed information.  
 ✅ **Google Lens Integration:** Use image recognition to learn about landmarks and attractions.
+✅ **Health & Safety Tips:** Stay informed with essential travel health tips. 
 ✅ **Instant travel restriction updates** for various destinations.  
 ✅ **Personalized healthcare advice** based on medical history.  
 ✅ **Emergency contact retrieval** for safety while traveling.  
