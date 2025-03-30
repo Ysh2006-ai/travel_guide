@@ -111,7 +111,7 @@ We welcome contributions! Follow these steps:
 🔹 **Improve Google Lens integration for real-time landmark recognition.**  
 🔹 **Advanced AI-based packing assistant for a smarter travel experience.**  
 
-📩 **For any questions or support, reach out via [Ysh2006-ai] or [yashyadav0663@gmail.com].**
+📩 **For any questions or support, reach out via [yashyadav0663@gmail.com].**
 
 🌟 *Happy Travels!* 🌍 ✈️ 🚀
 
